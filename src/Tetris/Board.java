@@ -16,6 +16,7 @@ public class Board extends JPanel  {
             public void actionPerformed(ActionEvent e) {
                 System.out.println("start");
             }
+
         });
         timer.start();
 
