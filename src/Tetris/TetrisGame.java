@@ -5,24 +5,19 @@ import javax.swing.*;
 
 public class TetrisGame {
 
-    public static final int WIDTH = 600, HEIGHT = 630;
 
-    private JFrame window;
-    private Board board;
+
+    private GameFrame frame;
+
 
 
     public TetrisGame() {
-        window = new JFrame("Tetris Game");
-        window.setSize(WIDTH, HEIGHT);
-        window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        window.setResizable(false);
-        window.setLocationRelativeTo(null);
-
-        board = new Board();
-        window.add(board);
+        frame = new GameFrame("Tetris Game");
+        // makes sure that JPanel does not cover whole of JFrame
 
 
-        window.setVisible(true);
+
+
     }
 
     public static void main(String[] args) {

@@ -1,0 +1,15 @@
+Lblock = new Block(new int[][]{ {1,0},
+                                {1,0},
+                                {1,1} }, Color.orange);
+Iblock = new Block(new int[][]{ {1,1,1,1}}, Color.blue);
+Jblock = new Block(new int[][]{ {1,0,0},
+                                {1,1,1}}, Color.purple);
+Oblock = new Block(new int[][]{ {1,1},
+                                {1,1} }, Color.yellow);
+Sblock = new Block(new int[][]{ {0,1,1},
+                                {1,1,0}}, Color.green);
+Tblock = new Block(new int[][]{ {0,1,0},
+                                {1,1,1}}, Color.magenta);
+Zblock = new Block(new int[][]{ {1,1,0},
+                                {0,1,1}}, Color.red);
+
